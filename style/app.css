@@ -22,10 +22,7 @@
     padding: 0;
     margin: 0;
 }
-html{
-}
-body{
-}
+
 .container{
     max-width: 70rem;
     margin-left: auto;
@@ -38,8 +35,7 @@ a{
     text-decoration: none;
     color: #000;
 }
-.header{
-}
+
 /* styling header top */
 .header_top{
     display: flex;
@@ -145,8 +141,7 @@ a{
     text-align: center;
  
 }
-.main_top{
-}
+
 .main_top_title1{
     color: #757575;
     margin-bottom: 0;
@@ -165,9 +160,7 @@ a{
     align-items: center;
     line-height: 2rem;
 }
-.main_bottom_title{
 
-}
 .main_bottom_text{
     color: #757575;
     max-width: 16rem;
@@ -189,9 +182,7 @@ a{
     padding: 1rem 0;
     line-height: 2rem;
 }
-.comments_head{
 
-}
 .comments_title{
     font-weight: normal;
     font-family: 'ttnormsmedium';
@@ -234,9 +225,7 @@ a{
     margin-bottom: 0.5rem;
 
 }
-.comment_content_user_img{
 
-}
 .comment_content_user_id{
     color: #000;
     margin-left: 0.5rem;
@@ -265,9 +254,7 @@ a{
     max-width: 70rem;
     margin: 0 auto 0 auto;
 }
-.sample_top{
 
-}
 .sample_top_title1{
     color: #757575;
     font-famIly: 'ttnormslight';
@@ -344,12 +331,6 @@ a{
     align-items: center;
     justify-content: space-between;
     font-size: 1.2rem;
-}
-.copy_text_right{
-
-}
-.copy_text_left{
-
 }
 @media only screen and  (max-width=1200px){
     
