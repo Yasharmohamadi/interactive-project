@@ -1,0 +1,356 @@
+/* times */
+@font-face {
+    font-family: times;
+    src: url("../fonts/Times-new-roman-italic.ttf");
+}
+/* ttnormslight */
+@font-face {
+    font-family: ttnormslight;
+    src: url("../fonts/TTNorms-Light.otf");
+}
+/* ttnormsmedium */
+@font-face {
+    font-family: ttnormsmedium;
+    src: url("../fonts/TTNorms-Medium.otf");
+}
+/* ttnormsregular */
+@font-face {
+    font-family: ttnormsregular;
+    src: url("../fonts/TTNorms-Regular.otf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+}
+body{
+}
+.container{
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header{
+}
+/* styling header top */
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: ttnormsregular;
+}
+.header_top_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_top_nav_ul{
+    list-style-type: none; 
+    display: flex;
+}
+.header_top_nav_item{
+    padding: 13px 25px;
+    margin-left: 1rem;
+    transition: 150ms;
+}
+.header_top_nav_item:hover{
+    background-color: #ECEFF1;
+    border-radius: 6px;
+    padding: 8px 25px;
+    transition: 200ms;
+}
+.header_top_contact{
+    background-color: #1565C0;
+    color: #fff;
+    border-radius: 6px;
+    padding: 9px 30px;
+    transition: 200ms;
+}
+.header_top_contact:hover{
+    background-color: #0D47A1;
+}
+/* styling header bottom */
+.header_bottom{
+    margin-top: 6rem;
+    font-family: ttnormslight;
+}
+.header_bottom_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_bottom_left_wrapper{
+    max-width: 28rem;
+}
+.header_bottom_left{
+    flex-basis: 50%;
+    line-height: 2rem;
+
+}
+.header_bottom_left_title{
+    margin-bottom: 1rem;
+}
+.header_bottom_left_text{
+    margin-bottom: 1.5rem;
+    color: #757575;
+}
+.header_bottom_left_btns{
+    display: flex;
+
+}
+.header_bottom_left_btn1{
+    background-color: #1565C0;
+    color: #fff;
+    border-radius: 6px;
+    padding: 4px 20px;
+    margin-right: 0.7rem;
+    transition: 200ms;
+    width: 7rem;
+    text-align: center;
+}
+.header_bottom_left_btn1:hover{
+    background-color: #0D47A1;
+}
+.header_bottom_left_btn2{
+    background-color: #689F38;
+    color: #fff;
+    border-radius: 6px;
+    padding: 4px 20px;
+    transition: 200ms;
+    width: 7rem;
+    text-align: center;
+}
+.header_bottom_left_btn2:hover{
+    background-color: #558B2F;
+}
+.header_bottom_right{
+    flex-basis: 50%;
+}
+.header_bottom_right_img{
+    width: 100%;
+}
+/* styling main top */
+.main{
+    margin-top: 5rem;
+    font-family: ttnormslight;
+    text-align: center;
+ 
+}
+.main_top{
+}
+.main_top_title1{
+    color: #757575;
+    margin-bottom: 0;
+}
+.main_top_title2{
+    color: #000;
+    margin-top: 0.5rem;
+    font-family: 'ttnormsmedium';
+    font-weight: normal;
+}
+.main_bottom{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 2rem;
+}
+.main_bottom_title{
+
+}
+.main_bottom_text{
+    color: #757575;
+    max-width: 16rem;
+}
+
+.main_img{
+    width: 31rem;
+    margin: 0 auto;
+}
+.main_img_svg{
+    width: 100%;
+}
+/* starts comments section  */
+.comments_section{
+    background-color: #1565C0;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+.comments_head{
+
+}
+.comments_title{
+    font-weight: normal;
+    font-family: 'ttnormsmedium';
+}
+.comments_about{
+    font-family: 'ttnormslight';
+}
+.comments_wrapper{
+    max-width: 65rem;
+    margin: 3.5rem auto 0 auto;
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+
+}
+.comment{
+    min-height: 18rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 20rem;
+
+}
+.comment_content_text{
+    color: #757575;
+    font-family: 'times';
+    margin: 0;
+    text-align: left;
+    padding: 1.2rem;
+}
+.comment_content_user{
+    display: flex;
+    justify-content: start;
+    border-top: 1px solid #BDBDBD;
+    padding:0.8rem 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+.comment_content_user_img{
+
+}
+.comment_content_user_id{
+    color: #000;
+    margin-left: 0.5rem;
+    font-family: 'ttnormsmedium';
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.signs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+.sign{
+    opacity: 50%;
+    display: block;
+    margin: 1rem;
+}
+/* sample section  */
+.sample{
+    margin: 6rem 6rem;
+    text-align: center;
+}
+.sample_container{
+    max-width: 70rem;
+    margin: 0 auto 0 auto;
+}
+.sample_top{
+
+}
+.sample_top_title1{
+    color: #757575;
+    font-famIly: 'ttnormslight';
+
+}
+.sample_top_title2{
+    margin-bottom: 3rem;
+    font-family: 'ttnormslight';
+    font-weight: normal;
+
+}
+.sample_images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image_box{
+    flex-basis: 20rem;
+    margin: 1rem;
+
+}
+.sample_image{
+    width: 100%;
+}
+/* start news sectio  */
+.news{
+    background: #1565C0;
+    padding: 4rem 0;
+    color: #fff;
+}
+.news_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news_text{
+    font-size: 1.6rem;
+    font-family: 'ttnormsregular';
+    font-weight: normal;
+}
+.news_email{
+    background: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 18rem;
+    padding: 0.4rem;
+
+}
+.news_email_input{
+    border: none;
+    padding: 1rem;
+    outline-color: #1565C0;
+}
+.news_email_button{
+    background: #1565C0;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    padding: 1rem 0;
+}
+.copy_wrapper{
+    font-family: 'ttnormsregular';
+    font-weight: normal;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.copy_text_right{
+
+}
+.copy_text_left{
+
+}
+@media only screen and  (max-width=1200px){
+    
+}
